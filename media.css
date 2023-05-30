@@ -1,0 +1,215 @@
+@media  only screen and (min-width: 640px){
+   #check{
+        display: none;
+    }
+     label{
+        display: none;
+    }
+     .sidebar{
+        display: none;
+    }
+    .navbar{
+        position: fixed;
+    }
+    .navbarbtn{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .navbarbtn > a{
+        text-decoration: none;
+        color: #f2f2f0;
+        font-size: 1.1rem;
+        transition: .4s linear;
+    }
+    .navbarbtn > a:hover{
+        text-decoration: none;
+        color:  #11bfae;
+        transition: .4s linear;
+    }
+
+   #home{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+   }
+   .home__container{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+   }
+   .home__container__word{
+
+    width: 60%; 
+    height: 60%;   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+   }
+   .home__container__word > h1{
+    font-size: 3rem;
+   }
+   .home__container__word > p{
+    width: 85%;
+    height: auto;
+    margin-top: -10rem;
+    font-size: 1.5rem;
+   }
+   .home__container__word >p>span{
+    color: #11bfae;
+    font-weight: 300;
+   } 
+   .home__container__word{
+    margin-top: 7rem;
+   }
+   .home__container__photo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw;
+   }
+   .home__photo{
+    width: 65%;
+    height: 75%;
+    border-radius: 18rem 10rem;
+   }
+   .home__container__button{
+    display: none;
+   }
+   #aboutme{
+    padding-top: 10vh;
+    margin-top: 10vh;
+    width: 100%;
+    height: 80vh;
+    }
+   .aboutme__container{
+    width:100%;
+    height: 100%;
+    }
+    .aboutme__who_is_me{
+        width: 100%;
+        height: 15vw;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items:center ;
+
+    }
+    .aboutme__who_is_me > p{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 1.7rem;
+    }
+    .aboutme__skills{
+        margin-left: -40vw;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme__skills > h1{
+        font-size: 2.5rem;
+    }
+    .aboutme__skills__lits{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme__skills__items{
+        font-size: 2rem;
+    }
+    .aboutme__hobby{
+        margin-right: -40vw;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme__hobby__lists{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutme__hobby > h1{
+        width: 100%;
+        height: auto;
+        font-size: 2.5rem;
+        font-weight: 500;
+
+    }
+    .aboutme__hobby__items{
+        font-size: 2rem;
+    }
+    #contact{
+        margin-top: 50vh;
+        
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactme__container{
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input[type=text]{
+        width: 60%;
+        height: 6vh;
+        margin-top: 2vh;
+        
+    }
+    .contactme__textarea{
+        margin-top: 3vh;
+        width: 60%;
+        height: 40vh;
+        
+    }
+    #contactme__textarea{
+        width: 60%;
+
+    }
+    footer{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__container{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footer__links{
+        width: 50%;
+    }
+    .footer__logo{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .SG{
+        margin-left: 2vh;
+    }
+}
